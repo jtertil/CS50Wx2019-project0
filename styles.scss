@@ -1,12 +1,51 @@
 $color: purple;
 
-h3 {
+h3,h1 {
   color: $color;
 }
 
 main {
   padding: 20px
 }
+
+.mainlist {
+color: red;
+}
+
+.seclist {
+  color: blue;
+}
+
+.sassnasting {
+  p {
+    font-style: italic;
+    color: coral;
+  }
+}
+
+%message {
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.info {
+  @extend %message;
+  color: blue;
+}
+
+.warning {
+  @extend %message;
+  color: orange;
+}
+
+.error {
+  @extend %message;
+  color: red;
+}
+
 
 @media print {
   #noprintsample{
@@ -31,8 +70,14 @@ main {
 
 .row > div {
   padding: 20px;
-  background-color: teal;
-  border: 2px solid black;
+  text-align: center;
+  min-height: 250px;
+  background-color: skyblue;
+  border: 2px solid steelblue;
+}
+
+.row {
+  border: 1px solid steelblue;
 }
 
 .img {
@@ -40,9 +85,7 @@ main {
   margin:auto;
 }
 
-li {
-  color: grey;
-}
+
 
 dd {
   font-style: italic;

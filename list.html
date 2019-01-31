@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <a class="navbar-brand" href="#">N.D.C.S.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
             <a class="nav-link" href="image.html">image</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="columns1.html">columns1</a>
+            <a class="nav-link" href="bootstrapgrid.html">bootstrap grid</a>
           </li>
         </ul>
       </div>
@@ -47,43 +47,43 @@
 <main>
   <h3>Sample of HTML nasted list:</h4>
   <ul>
-    <li>Ordered lists:</li>
+    <li class="mainlist">Ordered lists:</li>
       <ul>
-        <li>numeric index(default):</li>
+        <li class="seclist">numeric index(default):</li>
           <ol>
             <li>some text</li>
             <li>some text</li>
             <li>some text</li>
           </ol>
-        <li>alphabetic index:</li>
+        <li class="seclist">alphabetic index:</li>
           <ol type="A">
             <li>some text</li>
             <li>some text</li>
             <li>some text</li>
           </ol>
-        <li>roman index:</li>
+        <li class="seclist">roman index:</li>
           <ol type="I">
             <li>some text</li>
             <li>some text</li>
             <li>some text</li>
           </ul>
 
-    <li>Unordered lists:</li>
+    <li class="mainlist">Unordered lists:</li>
       <ul>
-        <li>default:</li>
-          <ul>
+        <li class="seclist">square:</li>
+          <ul style="list-style-type:square">
             <li>some text</li>
             <li>some text</li>
             <li>some text</li>
           </ul>
 
-        <li>circle:</li>
+        <li class="seclist">circle:</li>
           <ul style="list-style-type:circle">
             <li>some text</li>
             <li>some text</li>
             <li>some text</li>
           </ul>
-        <li>disc:</li>
+        <li class="seclist">disc:</li>
           <ul style="list-style-type:disc">
             <li>some text</li>
             <li>some text</li>
@@ -121,13 +121,6 @@
       </ul>
     </div>
   </main>
-
-  <h3>Sample of Media query</h3>
-  <p id="noprintsample">This pragraph don't appear when you print this page.</p>
-  <p>This paragraph apper both: screen and print.</p>
-
-
-
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
