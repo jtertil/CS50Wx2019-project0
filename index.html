@@ -8,7 +8,21 @@
    <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <style>
+  @media (max-width: 679px) {
+    h1::before{
+      content: "Welcome!"
+    }
+  }
+
+  @media (min-width: 680px) {
+    h1::before{
+      content: "Welcome to my web page!"
+    }
+  }
+  </style>
 
   <title>Newbie Developer Chat Sheet</title>
 </head>
@@ -44,7 +58,7 @@
   </header>
 
 
-<h1>home</h1>
+<h1></h1>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

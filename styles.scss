@@ -1,0 +1,50 @@
+$color: purple;
+
+h3 {
+  color: $color;
+}
+
+main {
+  padding: 20px
+}
+
+@media print {
+  #noprintsample{
+    display: none;
+  }
+}
+
+@media (max-width: 679px) {
+  .img {
+    width: 90%;
+  }
+  body {
+    /* background-color: green; */
+  }
+}
+
+@media (min-width: 680px) {
+  body {
+    /* background-color: red; */
+  }
+}
+
+.row > div {
+  padding: 20px;
+  background-color: teal;
+  border: 2px solid black;
+}
+
+.img {
+  display: block;
+  margin:auto;
+}
+
+li {
+  color: grey;
+}
+
+dd {
+  font-style: italic;
+  margin-left: 40px
+}
