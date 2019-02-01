@@ -9,10 +9,14 @@ main {
 }
 
 .mainlist {
-color: red;
+  list-style-type: none;
+  font-size: 20px;
+  color: red;
 }
 
 .seclist {
+  list-style-type: none;
+  font-size: 18px;
   color: blue;
 }
 
@@ -55,10 +59,16 @@ color: red;
 
 @media (max-width: 679px) {
   .img {
-    width: 90%;
+    max-width: 100%;
   }
   body {
     /* background-color: green; */
+  }
+}
+
+@media (max-height: 400px) {
+  .img {
+    max-height: 350px;
   }
 }
 
