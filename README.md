@@ -16,7 +16,7 @@ Web Programming with Python and JavaScript
 * image.html
  * responsive page with photos samples
 * bootstrapgrid.html
- * sample of the responsive layout using bootstrap classes.
+ * sample of the responsive layout using bootstrap classes
 * style files:
  * styles.scss
  * syles.css
